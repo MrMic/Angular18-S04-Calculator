@@ -11,7 +11,7 @@ import { UserInputComponent } from "./user-input/user-input.component";
 })
 export class AppComponent {
 
-  calculateInvestmentResults(
+  onCalculateInvestmentResults(
     data: {
       initialInvestment: number,
       duration: number,
@@ -39,6 +39,6 @@ export class AppComponent {
       });
     }
 
-    return annualData;
+    console.log(annualData);
   }
 }
