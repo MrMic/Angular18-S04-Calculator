@@ -12,7 +12,7 @@ import { InvestmentResultsComponent } from "./investment-results/investment-resu
   imports: [HeaderComponent, UserInputComponent, InvestmentResultsComponent],
 })
 export class AppComponent {
-  resultsData? = {
+  resultsData?: {
     year: number,
     interest: number,
     valueEndOfYear: number,
